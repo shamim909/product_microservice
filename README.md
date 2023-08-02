@@ -1,7 +1,7 @@
 # product_microservice
 ## Product Specifications
-Please follow the below link
-
+Please follow the link
+ [Spec](productsMS/documents/spec.md)
 
 ## Solution Design
 ![Solution Block diagram](productsMS/documents/ProductMs.jpg "HLD")
