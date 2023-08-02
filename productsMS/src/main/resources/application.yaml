@@ -20,9 +20,9 @@ spring:
     name: Product_MS
   # Spring JDBC configuration
   datasource:
-    url:      jdbc:mysql://192.168.8.163:3306/productms
-    username: myvcon
-    password: '@@123#Canada@@'
+    url:      jdbc:mysql://localhost:3306/productms
+    username: user
+    password: ''
 
   # Spring Data JPA configuration
   jpa:
