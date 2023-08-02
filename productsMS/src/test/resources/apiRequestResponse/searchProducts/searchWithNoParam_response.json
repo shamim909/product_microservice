@@ -1,0 +1,46 @@
+[
+	{
+		"productId": 52,
+		"productCatagoryName": "ConsumerProducts",
+		"productCatalogName": "Electronic",
+		"productActivatedOn": "2023-08-02T01:03:55.000+00:00",
+		"product_Description": "iphone14",
+		"productName": "iphone14Pro",
+		"productPrice": 5000,
+		"productSku": "SKUCoip615",
+		"productStatus": 1,
+		"productMstExtns": []
+	},
+	{
+		"productId": 102,
+		"productCatagoryName": "Dairy",
+		"productCatalogName": "grocery",
+		"productActivatedOn": "2023-08-02T06:31:01.000+00:00",
+		"product_Description": "Milk 2%",
+		"productName": "Milk_2_Percent",
+		"productPrice": 2.5,
+		"productSku": "SKUDaMi249",
+		"productStatus": 1,
+		"productMstExtns": []
+	},
+	{
+		"productId": 152,
+		"productCatagoryName": "Dairy",
+		"productCatalogName": "grocery",
+		"productActivatedOn": "2023-08-02T06:39:01.000+00:00",
+		"product_Description": "Milk 3%",
+		"productName": "Milk_3_Percent",
+		"productPrice": 4.5,
+		"productSku": "SKUDaMi165",
+		"productStatus": 1,
+		"productMstExtns": [
+			{
+				"productExtnRecordId": 1,
+				"productAttCreatedOn": null,
+				"productAttName": "Type",
+				"productAttStatus": 1,
+				"productAttValue": "3%"
+			}
+		]
+	}
+]

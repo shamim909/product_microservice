@@ -1,0 +1,31 @@
+curl -X 'POST' \
+  'http://localhost:8080/api/product' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  
+  "productCatagoryName": "ConsumerGoods",
+  "productCatalogName": "Electronic",
+ 
+  "product_Description": "tv",
+  "productName": "TV220",
+  "productPrice": 11000,
+  
+ 
+  "productMstExtns": [
+    {
+      
+      "productAttName": "Type",
+      "productAttStatus": 1,
+      "productAttValue": "QLED"
+      
+    }
+  ]
+}'
+
+-----------------
+response
+
+{
+  "status": "BAD_REQUEST"
+}

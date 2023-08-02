@@ -1,0 +1,41 @@
+curl -X 'PUT' \
+  'http://localhost:8080/api/products/252' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "TV50",
+  "price": 1000,
+  "status": 1
+}'
+
+--------------searchproduct-----------
+curl -X 'POST' \
+  'http://localhost:8080/api/products/search' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "productName": "TV"
+}'
+---res-----------------------------------------------------
+[
+  {
+    "productId": 252,
+    "productCatagoryName": "ConsumerGoods",
+    "productCatalogName": "Electronic",
+    "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+    "product_Description": "tv",
+    "productName": "TV50",
+    "productPrice": 4000,
+    "productSku": "SKUCoTV547",
+    "productStatus": 1,
+    "productMstExtns": [
+      {
+        "productExtnRecordId": 52,
+        "productAttCreatedOn": null,
+        "productAttName": "Type",
+        "productAttStatus": 1,
+        "productAttValue": "QLED"
+      }
+    ]
+  }
+]

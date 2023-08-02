@@ -1,0 +1,31 @@
+
+#spring:
+#  # Spring JDBC configuration
+#  datasource:
+#    url:      jdbc:mysql://${${mysql.service.name}.service.host}:${mysql.service.port}/${mysql.service.database}
+#    username: ${mysql.service.username}
+#    password: ${mysql.service.password}
+#
+#  # Spring Data JPA configuration
+#  jpa:
+#    hibernate:
+#      # To be updated in real production usage!
+#      ddl-auto: create-drop
+#    show-sql: false
+server:
+  port:
+    8080
+spring:
+  application:
+    name: Product_MS
+  # Spring JDBC configuration
+  datasource:
+    url:      jdbc:mysql://192.168.8.163:3306/productms
+    username: myvcon
+    password: '@@123#Canada@@'
+
+  # Spring Data JPA configuration
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

@@ -1,0 +1,14 @@
+[
+	{
+		"productId": 52,
+		"productCatagoryName": "ConsumerProducts",
+		"productCatalogName": "Electronic",
+		"productActivatedOn": "2023-08-02T01:03:55.000+00:00",
+		"product_Description": "iphone14",
+		"productName": "iphone14Pro",
+		"productPrice": 5000,
+		"productSku": "SKUCoip615",
+		"productStatus": 1,
+		"productMstExtns": []
+	}
+]

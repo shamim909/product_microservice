@@ -1,0 +1,45 @@
+curl -X 'DELETE' \
+  'http://localhost:8080/api/products/252' \
+  -H 'accept: application/json'
+  
+  --------------approval request---
+    {
+    "product": {
+      "productId": 252,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV50",
+      "productPrice": 9000,
+      "productSku": "SKUCoTV547",
+      "productStatus": 1,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 52,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": null,
+    "approvalRequest": {
+      "approvalId": 454,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:51:24.000+00:00",
+      "approvalReqType": "REMOVE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 704,
+        "productChngHistDetails": "Product remove request created",
+        "productChngHistEvent": "RemoveApprovalRequested",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:51:24.000+00:00",
+        "productChngStatus": 1,
+        "productId": 252
+      }
+    }
+  }

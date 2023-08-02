@@ -1,0 +1,3 @@
+curl -X 'PUT' \
+  'http://localhost:8080/api/products/approval-queue/202/reject' \
+  -H 'accept: application/json'

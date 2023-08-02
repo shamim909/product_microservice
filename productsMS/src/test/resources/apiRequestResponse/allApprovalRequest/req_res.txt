@@ -1,0 +1,440 @@
+
+curl -X 'GET' \
+  'http://localhost:8080/api/products/approval-queue' \
+  -H 'accept: application/json'
+
+--------------------------------res-----------------------
+[
+  {
+    "product": {
+      "productId": 52,
+      "productCatagoryName": "ConsumerProducts",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T01:03:55.000+00:00",
+      "product_Description": "iphone14",
+      "productName": "iphone14Pro",
+      "productPrice": 5000,
+      "productSku": "SKUCoip615",
+      "productStatus": 1,
+      "productMstExtns": []
+    },
+    "productUpdateRequestTmp": {
+      "id": 2,
+      "approvalId": 102,
+      "isActive": 1,
+      "name": "iPhone13",
+      "price": 6000,
+      "productId": 52,
+      "status": 1
+    },
+    "approvalRequest": {
+      "approvalId": 102,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T06:23:57.000+00:00",
+      "approvalReqType": "UPDATE_PRICE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 152,
+        "productChngHistDetails": "Price update request created",
+        "productChngHistEvent": "UPDATE_PRICE",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T06:23:57.000+00:00",
+        "productChngStatus": 1,
+        "productId": 52
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 202,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T06:53:42.000+00:00",
+      "product_Description": "c",
+      "productName": "TV85",
+      "productPrice": 8000,
+      "productSku": "SKUCoTV131",
+      "productStatus": 2,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 2,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": null,
+    "approvalRequest": {
+      "approvalId": 152,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T06:53:43.000+00:00",
+      "approvalReqType": "CREATE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 302,
+        "productChngHistDetails": "Product approval request created",
+        "productChngHistEvent": "ApprovalRequested",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T06:53:43.000+00:00",
+        "productChngStatus": 1,
+        "productId": 202
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 102,
+      "productCatagoryName": "Dairy",
+      "productCatalogName": "grocery",
+      "productActivatedOn": "2023-08-02T06:31:01.000+00:00",
+      "product_Description": "Milk 2%",
+      "productName": "Milk_2_Percent",
+      "productPrice": 2.5,
+      "productSku": "SKUDaMi249",
+      "productStatus": 1,
+      "productMstExtns": []
+    },
+    "productUpdateRequestTmp": null,
+    "approvalRequest": {
+      "approvalId": 202,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T07:07:42.000+00:00",
+      "approvalReqType": "CREATE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 352,
+        "productChngHistDetails": "Product remove request created",
+        "productChngHistEvent": "RemoveApprovalRequested",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T07:07:42.000+00:00",
+        "productChngStatus": 1,
+        "productId": 102
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 302,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T17:06:59.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV120",
+      "productPrice": 7000,
+      "productSku": "SKUCoTV340",
+      "productStatus": 2,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 102,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": null,
+    "approvalRequest": {
+      "approvalId": 352,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:06:59.000+00:00",
+      "approvalReqType": "CREATE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 602,
+        "productChngHistDetails": "Product approval request created",
+        "productChngHistEvent": "ApprovalRequested",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:06:59.000+00:00",
+        "productChngStatus": 1,
+        "productId": 302
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 252,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV50",
+      "productPrice": 9000,
+      "productSku": "SKUCoTV547",
+      "productStatus": 1,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 52,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": {
+      "id": 152,
+      "approvalId": 402,
+      "isActive": 1,
+      "name": "TV50",
+      "price": 1000,
+      "productId": 252,
+      "status": 1
+    },
+    "approvalRequest": {
+      "approvalId": 402,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:30:02.000+00:00",
+      "approvalReqType": "UPDATE_PRICE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 653,
+        "productChngHistDetails": "Price update request created",
+        "productChngHistEvent": "UPDATE_PRICE",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:30:02.000+00:00",
+        "productChngStatus": 1,
+        "productId": 252
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 252,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV50",
+      "productPrice": 9000,
+      "productSku": "SKUCoTV547",
+      "productStatus": 1,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 52,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": {
+      "id": 153,
+      "approvalId": 403,
+      "isActive": 1,
+      "name": "TV50",
+      "price": 100,
+      "productId": 252,
+      "status": 1
+    },
+    "approvalRequest": {
+      "approvalId": 403,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:30:57.000+00:00",
+      "approvalReqType": "UPDATE_PRICE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 654,
+        "productChngHistDetails": "Price update request created",
+        "productChngHistEvent": "UPDATE_PRICE",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:30:57.000+00:00",
+        "productChngStatus": 1,
+        "productId": 252
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 252,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV50",
+      "productPrice": 9000,
+      "productSku": "SKUCoTV547",
+      "productStatus": 1,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 52,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": {
+      "id": 154,
+      "approvalId": 404,
+      "isActive": 1,
+      "name": "TV50",
+      "price": 9000,
+      "productId": 252,
+      "status": 1
+    },
+    "approvalRequest": {
+      "approvalId": 404,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:31:41.000+00:00",
+      "approvalReqType": "UPDATE_PRICE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 655,
+        "productChngHistDetails": "Price update request created",
+        "productChngHistEvent": "UPDATE_PRICE",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:31:41.000+00:00",
+        "productChngStatus": 1,
+        "productId": 252
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 252,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV50",
+      "productPrice": 9000,
+      "productSku": "SKUCoTV547",
+      "productStatus": 1,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 52,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": {
+      "id": 202,
+      "approvalId": 452,
+      "isActive": 1,
+      "name": "TV50",
+      "price": 3000,
+      "productId": 252,
+      "status": 1
+    },
+    "approvalRequest": {
+      "approvalId": 452,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:39:18.000+00:00",
+      "approvalReqType": "UPDATE_PRICE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 702,
+        "productChngHistDetails": "Price update request created",
+        "productChngHistEvent": "UPDATE_PRICE",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:39:18.000+00:00",
+        "productChngStatus": 1,
+        "productId": 252
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 252,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV50",
+      "productPrice": 9000,
+      "productSku": "SKUCoTV547",
+      "productStatus": 1,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 52,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": {
+      "id": 203,
+      "approvalId": 453,
+      "isActive": 1,
+      "name": "TV50",
+      "price": 9000,
+      "productId": 252,
+      "status": 1
+    },
+    "approvalRequest": {
+      "approvalId": 453,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:43:53.000+00:00",
+      "approvalReqType": "UPDATE_PRICE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 703,
+        "productChngHistDetails": "Price update request created",
+        "productChngHistEvent": "UPDATE_PRICE",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:43:53.000+00:00",
+        "productChngStatus": 1,
+        "productId": 252
+      }
+    }
+  },
+  {
+    "product": {
+      "productId": 252,
+      "productCatagoryName": "ConsumerGoods",
+      "productCatalogName": "Electronic",
+      "productActivatedOn": "2023-08-02T16:59:05.000+00:00",
+      "product_Description": "tv",
+      "productName": "TV50",
+      "productPrice": 9000,
+      "productSku": "SKUCoTV547",
+      "productStatus": 1,
+      "productMstExtns": [
+        {
+          "productExtnRecordId": 52,
+          "productAttCreatedOn": null,
+          "productAttName": "Type",
+          "productAttStatus": 1,
+          "productAttValue": "QLED"
+        }
+      ]
+    },
+    "productUpdateRequestTmp": null,
+    "approvalRequest": {
+      "approvalId": 454,
+      "approvalActOn": null,
+      "approvalApprovedBy": null,
+      "approvalReqOn": "2023-08-02T17:51:24.000+00:00",
+      "approvalReqType": "REMOVE",
+      "approvalStatus": 2,
+      "productChngHistTxn": {
+        "productChngRecordId": 704,
+        "productChngHistDetails": "Product remove request created",
+        "productChngHistEvent": "RemoveApprovalRequested",
+        "productChngPerformedBy": "System",
+        "productChngPerformedOn": "2023-08-02T17:51:24.000+00:00",
+        "productChngStatus": 1,
+        "productId": 252
+      }
+    }
+  }
+]
